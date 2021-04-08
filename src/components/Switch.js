@@ -1,15 +1,8 @@
 
 import React from 'react'
-
 import './Switch.css'
 
-
-
 export const SwitchCart = () => {
-
-
-
-
     return (
         <label className="switch">
             <input type="checkbox" />
