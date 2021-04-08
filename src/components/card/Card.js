@@ -3,10 +3,7 @@ import './Card.css';
 import 'font-awesome/css/font-awesome.min.css';
 import { Star } from '../star/star'
 
-
-
 export const ProductCard = (props) => {
-
     return (
         <div className={props.sw}>
             <div className="topProdCartWrap">
@@ -17,22 +14,18 @@ export const ProductCard = (props) => {
                 <div className="centerProdCart">
                     <img src={props.fotoMain} alt="" />
 
-
                 </div>
                 <div className="rigthProdCart">
                     <img src={props.fotoMainR} className='icon' alt="" />
                 </div>
             </div>
 
-
             <div className="centerProdCartWrap">
-
                 <Star />
                 <div className="centerProdCartName">
                     {props.nameTitle}
                 </div>
             </div>
-
 
             <div className="bottomProdCartWrap">
                 <div className="bottomProdCartWrapPrice">
@@ -40,9 +33,6 @@ export const ProductCard = (props) => {
                 </div>
                 <div className="bottomProdCartWrapIcon"><i className="fa fa-shopping-basket" aria-hidden="true"></i></div>
             </div>
-
-
-
         </div>
     )
 }
